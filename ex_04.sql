@@ -1,0 +1,1 @@
+SELECT FirstName ||" "|| LastName as FullName FROM Employee WHERE Title LIKE '%sales%' or '%agent%';
